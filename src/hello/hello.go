@@ -13,7 +13,7 @@ func main() {
 	fmt.Println("0- Sair do programa")
 
 	var comando int
-	fmt.Scan(&comando)
+	fmt.Scan(&comando) // fmt.Scanf("%d", &comando)
 	fmt.Println("O endereço da variável comando é", &comando)
 	fmt.Println("O comando escolhi foi", comando)
 }
